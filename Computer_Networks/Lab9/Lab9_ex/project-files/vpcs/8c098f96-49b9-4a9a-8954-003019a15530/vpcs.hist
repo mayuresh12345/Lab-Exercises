@@ -1,0 +1,4 @@
+show ip
+dhcp
+exit
+quit

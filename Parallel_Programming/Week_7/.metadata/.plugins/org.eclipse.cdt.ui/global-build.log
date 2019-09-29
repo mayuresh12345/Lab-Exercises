@@ -1,0 +1,147 @@
+20:56:54 **** Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+../ex.c: In function ‘main’:
+../ex.c:52:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+  ^
+In file included from ../ex.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../ex.c:52:74: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+                                                                          ^
+In file included from ../ex.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+Finished building: ../ex.c
+ 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Ex"  ./ex.o   -lOpenCL
+Finished building target: Ex
+ 
+20:56:59 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:57 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:57 **** Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+../q1.c: In function ‘main’:
+../q1.c:46:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+  ^
+In file included from ../q1.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q1.c:46:74: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+                                                                          ^
+In file included from ../q1.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q1"  ./q1.o   -lOpenCL
+Finished building target: Q1
+ 
+21:30:12 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:12 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:16 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+22:05:01 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+22:07:56 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+22:07:56 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+22:07:56 **** Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:47:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+  ^
+In file included from ../q2.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q2.c:47:74: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+                                                                          ^
+In file included from ../q2.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q2"  ./q2.o   -lOpenCL
+Finished building target: Q2
+ 
+22:07:58 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:09:58 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:53 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:53 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+22:10:53 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:47:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+  ^
+In file included from ../q2.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q2.c:47:74: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context,device_id,NULL,&ret);
+                                                                          ^
+In file included from ../q2.c:3:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q2"  ./q2.o   -lOpenCL
+Finished building target: Q2
+ 
+22:10:55 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.

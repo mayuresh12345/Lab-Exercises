@@ -1,0 +1,228 @@
+13:33:17 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+13:33:54 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+13:42:57 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+13:42:57 **** Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+../q1.c: In function ‘main’:
+../q1.c:54:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+  ^
+In file included from ../q1.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q1.c:54:76: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+                                                                            ^
+In file included from ../q1.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q1.c:76:11: warning: unused variable ‘event’ [-Wunused-variable]
+  cl_event event;
+           ^
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q1"  ./q1.o   -lOpenCL
+Finished building target: Q1
+ 
+13:43:08 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:45:00 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+13:45:01 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+../q1.c: In function ‘main’:
+../q1.c:54:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+  ^
+In file included from ../q1.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q1.c:54:76: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+                                                                            ^
+In file included from ../q1.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q1.c:76:11: warning: unused variable ‘event’ [-Wunused-variable]
+  cl_event event;
+           ^
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q1"  ./q1.o   -lOpenCL
+Finished building target: Q1
+ 
+13:45:04 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:46:43 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:54:12 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+13:54:12 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:54:13 **** Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:54:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+  ^
+In file included from ../q2.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q2.c:54:76: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+                                                                            ^
+In file included from ../q2.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q2.c:76:11: warning: unused variable ‘event’ [-Wunused-variable]
+  cl_event event;
+           ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q2"  ./q2.o   -lOpenCL
+Finished building target: Q2
+ 
+13:54:17 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:54:45 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+13:55:47 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:27 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:27 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:27 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:27 **** Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:54:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+  ^
+In file included from ../q3.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q3.c:54:76: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+                                                                            ^
+In file included from ../q3.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q3.c:76:11: warning: unused variable ‘event’ [-Wunused-variable]
+  cl_event event;
+           ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q3"  ./q3.o   -lOpenCL
+Finished building target: Q3
+ 
+14:00:32 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:04 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:04 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:04 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:04 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:54:2: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+  ^
+In file included from ../q3.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q3.c:54:76: warning: passing argument 3 of ‘clCreateCommandQueue’ makes integer from pointer without a cast [-Wint-conversion]
+  cl_command_queue command_queue = clCreateCommandQueue(context, device_id, NULL, &ret);
+                                                                            ^
+In file included from ../q3.c:2:0:
+/usr/include/CL/cl.h:1359:1: note: expected ‘cl_command_queue_properties {aka long unsigned int}’ but argument is of type ‘void *’
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^
+../q3.c:75:11: warning: unused variable ‘event’ [-Wunused-variable]
+  cl_event event;
+           ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/x86_64-linux-gnu -o "Q3"  ./q3.o   -lOpenCL
+Finished building target: Q3
+ 
+14:01:08 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:59 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:11 **** Incremental Build of configuration Debug for project MyOpenCL ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:11 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:12 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:12 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:04:17 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.

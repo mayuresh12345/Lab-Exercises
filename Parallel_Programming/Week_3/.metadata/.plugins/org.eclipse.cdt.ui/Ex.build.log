@@ -1,0 +1,8 @@
+17:02:18 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 10892 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+17:02:18 Build Finished (took 175ms)
+

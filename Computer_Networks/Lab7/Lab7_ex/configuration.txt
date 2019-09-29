@@ -1,0 +1,45 @@
+Router 1
+
+conf t
+inter f 0/0
+ip address 10.0.0.1 255.0.0.0
+no shutdown
+exit
+
+conf t
+inter s1/0
+ip address 20.0.0.1 255.0.0.0
+clock rate 64000
+encapsulation ppp
+no shutdown
+exit
+
+Router 2
+
+conf t
+inter f 0/0
+ip address 30.0.0.1 255.0.0.0
+no shutdown
+exit
+
+inter s1/0
+ip address 20.0.0.2 255.0.0.0
+encapsulation ppp
+no shutdown
+exit
+
+PC1
+
+ip 10.0.0.10/8 10.0.0.1
+
+PC2
+
+ip 30.0.0.10/8 30.0.0.1
+
+Router 1
+
+ip route 30.0.0.0 255.0.0.0 20.0.0.2
+
+Router 2
+
+ip route 10.0.0.0 255.0.0.0 20.0.0.1

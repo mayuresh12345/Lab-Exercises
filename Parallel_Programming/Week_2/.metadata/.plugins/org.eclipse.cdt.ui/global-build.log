@@ -1,0 +1,397 @@
+21:17:22 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:18:05 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:05 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:05 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:05 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:42:55 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:55 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:55 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:56 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:42:56 **** Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:23:3: error: expected ‘;’ before ‘for’
+   for(int i = 1; i < (size + 1); i++)
+   ^
+../q4.c:42:2: warning: implicit declaration of function ‘MPI_buffer_detach’ [-Wimplicit-function-declaration]
+  MPI_buffer_detach(buffer, 100);
+  ^
+../q4.c:18:7: warning: unused variable ‘arr’ [-Wunused-variable]
+  int *arr = (int *) malloc(sizeof(int) * (size + 1));
+       ^
+subdir.mk:18: recipe for target 'q4.o' failed
+make: *** [q4.o] Error 1
+21:43:03 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:03 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:04 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:04 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:04 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:23:3: error: expected ‘;’ before ‘for’
+   for(int i = 1; i < (size + 1); i++)
+   ^
+../q4.c:42:2: warning: implicit declaration of function ‘MPI_buffer_detach’ [-Wimplicit-function-declaration]
+  MPI_buffer_detach(buffer, 100);
+  ^
+../q4.c:18:7: warning: unused variable ‘arr’ [-Wunused-variable]
+  int *arr = (int *) malloc(sizeof(int) * (size + 1));
+       ^
+make: *** [q4.o] Error 1
+subdir.mk:18: recipe for target 'q4.o' failed
+21:43:08 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:09 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:09 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:09 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:09 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:25:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+    scanf("%d", arr[i]);
+          ^
+../q4.c:42:2: warning: implicit declaration of function ‘MPI_buffer_detach’ [-Wimplicit-function-declaration]
+  MPI_buffer_detach(buffer, 100);
+  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_2/Q4/Debug/../q4.c:42: undefined reference to `MPI_buffer_detach'
+makefile:29: recipe for target 'Q4' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q4] Error 1
+21:43:34 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:35 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:35 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:35 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:35 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:25:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+    scanf("%d", arr[i]);
+          ^
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:43:49 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:50 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:50 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:50 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:50 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:25:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+    scanf("%d", arr[i]);
+          ^
+../q4.c:42:20: warning: passing argument 1 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(*buffer, 100);
+                    ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘void *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+../q4.c:42:29: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(*buffer, 100);
+                             ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:43:55 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:55 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:55 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:55 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:55 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:25:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+    scanf("%d", arr[i]);
+          ^
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:44:11 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:11 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:11 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:12 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:12 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:46:30 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:30 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:30 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:30 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:30 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:48:00 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:00 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:01 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:01 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:01 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:48:48 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:48 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:49 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:49 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:49 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+21:53:13 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:13 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:13 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:14 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:14 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 

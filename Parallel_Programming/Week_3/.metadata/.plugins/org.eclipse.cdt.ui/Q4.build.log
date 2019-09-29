@@ -1,0 +1,32 @@
+17:02:19 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 17993 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:19:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:9:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:8:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+../q4.c:7:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a[1][1][1][1][1][1][1];
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:19: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+make: warning:  Clock skew detected.  Your build may be incomplete.
+ 
+
+17:02:19 Build Finished (took 237ms)
+

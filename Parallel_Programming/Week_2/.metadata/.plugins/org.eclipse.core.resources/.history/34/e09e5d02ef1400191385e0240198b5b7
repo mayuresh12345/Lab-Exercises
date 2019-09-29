@@ -1,0 +1,57 @@
+#include "mpi.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+	int rank, size;
+	int i;
+	int *arr = (int *)malloc(sizeof(int) * 100);
+	int n;
+	int sum1 = 0;
+	int sum2 = 0;
+	double t1 = MPI_Wtime();
+	MPI_Status status;
+
+	MPI_Init(&argc, &argv);
+
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+	if(rank == 0)
+	{
+		printf("How many elements do you want to enter: ");
+		scanf("%d", &n);
+		printf("Enter the elements: ");
+		for(i = 0; i < n; i++)
+			scanf("%d", arr+i);
+
+		MPI_Send(&n, 1, MPI_INT, 1, 1, MPI_COMM_WORLD);
+		MPI_Send(arr + n/2, n/2, MPI_INT, 1, 1, MPI_COMM_WORLD);
+
+		for(i = 0; i < n / 2; i++)
+			sum1 += arr[i];
+		printf("Process 0 sum: %d\n", sum1);
+
+		MPI_Recv(&sum2, 1, MPI_INT, 1, 1, MPI_COMM_WORLD, &status);
+		int sum = sum1 + sum2;
+		printf("Final Sum: %d\n", sum);
+	}
+	else
+	{
+		MPI_Recv(&n, 1, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
+		MPI_Recv(arr, n/2, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
+		printf("Rank: 1 receives elements\n");
+		for(i = 0; i < n/2; i++)
+		{
+			printf("%d ", *(arr + i));
+			sum2 += arr[i];
+		}
+		printf("\nProcess 1 sum: %d\n", sum2);
+		MPI_Send(&sum2, 1, MPI_INT, 0, 1, MPI_COMM_WORLD);
+
+	}
+	double t2 = MPI_Wtime();
+	printf("Process %d time taken %fs\n", rank, t2 - t1);
+	MPI_Finalize();
+}

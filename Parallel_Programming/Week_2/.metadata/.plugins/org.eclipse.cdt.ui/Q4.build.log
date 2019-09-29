@@ -1,0 +1,23 @@
+21:53:14 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:42:28: warning: passing argument 2 of ‘MPI_Buffer_detach’ makes pointer from integer without a cast [-Wint-conversion]
+  MPI_Buffer_detach(buffer, 100);
+                            ^
+In file included from ../q4.c:1:0:
+/usr/include/mpich/mpi.h:928:5: note: expected ‘int *’ but argument is of type ‘int’
+ int MPI_Buffer_detach(void *buffer_addr, int *size);
+     ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+
+21:53:14 Build Finished (took 225ms)
+

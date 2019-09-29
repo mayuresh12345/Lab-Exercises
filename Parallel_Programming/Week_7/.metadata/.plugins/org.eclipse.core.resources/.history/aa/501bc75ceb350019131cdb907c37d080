@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <CL/cl.h>
+
+#define MAX_SOURCE_SIZE (0x100000)
+
+#define WA 3
+#define HA 2
+#define WB 3
+#define HB 3
+#define WC 3
+#define HC 2
+#define BLOCK_SIZE 1
+
+int main(void)
+{
+	unsigned int size_A = WA * HA;
+	unsigned int size_B = WB * HB;
+	int *a = (int *) malloc(size_A * sizeof(int));
+	int *b = (int *) malloc(size_B * sizeof(int));
+
+	FILE *fp;
+	char *source_str;
+	size_t source_size;
+	fp = fopen("matrixKernel.cl", "r");
+	if(!fp)
+	{
+		printf("Failed to load kernel\n");
+		exit(1);
+	}
+	source_str = (char *)malloc(MAX_SOURCE_SIZE);
+	source_size = fread(source_str, 1, MAX_SOURCE_SIZE, fp);
+	fclose(fp);
+	int i;
+
+	for(i = 0; i < size_A; i++)
+		scanf("%d", &a[i]);
+	for(i = 0; i < size_B; i++)
+		scanf("%d", &b[i]);
+
+	unsigned int size_C = WC * HC;
+	int *c = (int *) malloc(size_C * sizeof(int));
+
+	cl_platform_id platform_id = NULL;
+	cl_device_id device_id = NULL;
+	cl_uint ret_num devices;
+	cl_uint ret_num_platforms;
+
+
+
+
+
+}

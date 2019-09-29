@@ -1,0 +1,18 @@
+#include "mpi.h"
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+	int rank, size;
+	int c = 3;
+	int len, error_code;
+	error_code = MPI_Init(&argc, &argv);
+	MPI_Errhandler_set(MPI_COMM_WORLD, MPI_ERRORS_RETURN);
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	error_code = MPI_Comm_size(c, &size);
+	ErrorHandler(error_code);
+	printf("No. of tasks = %d\tMy rank = %d\n", size, rank);
+	ErrorHandler(error_code);
+	MPI_Finalize();
+	return;
+}

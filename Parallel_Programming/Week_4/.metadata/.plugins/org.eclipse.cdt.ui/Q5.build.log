@@ -1,0 +1,15 @@
+16:48:36 **** Incremental Build of configuration Debug for project Q5 ****
+make all 
+Building file: ../q5.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q5.d" -MT"q5.d" -o "q5.o" "../q5.c"
+Finished building: ../q5.c
+ 
+Building target: Q5
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q5"  ./q5.o   -lmpi
+Finished building target: Q5
+ 
+
+16:48:36 Build Finished (took 240ms)
+

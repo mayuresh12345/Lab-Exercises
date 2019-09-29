@@ -1,0 +1,55 @@
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define N 100
+
+__device__ void computeBin(char c)
+{
+	int val = (int) c;
+	int arr[10];
+	int l = 0;
+	int i;
+	for(i = 0; val != 0; i++)
+	{
+		arr[l++] = val % 2;
+		val /= 2;
+	}
+	for(i = 0; i <= l; i++)
+		printf("%d", arr[i]);
+	printf("\n");
+}
+__global__ void CUDAStrCopy(char *str, int *len)
+{
+	int i = blockIdx.x;
+
+	computeBin(str[i]);
+	printf("\n");
+}
+
+int main()
+{
+	char str[N];
+	printf("Enter the string: ");
+	scanf("%s", str);
+
+	char *pstr;
+	int len = strlen(str);
+	int *plen;
+	char str2[len];
+
+	cudaMalloc((void**)&pstr, len * sizeof(char));
+	cudaMalloc((void**)&plen, sizeof(int));
+	cudaMemcpy(pstr, str, len * sizeof(char), cudaMemcpyHostToDevice);
+	cudaMemcpy(plen, &len, sizeof(int), cudaMemcpyHostToDevice);
+
+	CUDAStrCopy<<<len, 1>>>(pstr, plen);
+
+	cudaFree(pstr);
+	cudaFree(plen);
+
+	printf("\n");
+
+		return 0;
+}

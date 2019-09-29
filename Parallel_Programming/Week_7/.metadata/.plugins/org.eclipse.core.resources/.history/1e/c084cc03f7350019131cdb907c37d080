@@ -1,0 +1,4 @@
+__kernel void q2_kernel(__global int *A, int sizeA)
+{
+
+}

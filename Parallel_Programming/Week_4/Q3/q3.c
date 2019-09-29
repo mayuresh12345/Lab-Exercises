@@ -1,0 +1,36 @@
+#include "mpi.h"
+#include <stdio.h>
+int main(int argc, char* argv[])
+{
+	int rank, size;
+
+	MPI_Init(&argc, &argv);
+	MPI_Comm_size(MPI_COMM_WORLD, &size);
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
+	int arr[3][3];
+	int count = 0;
+	int ele;
+	if(rank == 0)
+	{
+		printf("Enter the array\n");
+		for(int i = 0; i < 3; i++)
+			for(int j = 0; j < 3; j++)
+				scanf("%d", &arr[i][j]);
+		printf("Enter the character to be searched for\n");
+		scanf("%d", &ele);
+	}
+	int buf[3];
+	MPI_Bcast(&ele, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	MPI_Scatter(arr, 3, MPI_INT, buf, 3, MPI_INT, 0, MPI_COMM_WORLD);
+	for(int i = 0; i < 3; i++)
+	{
+		if(ele == buf[i])
+			count++;
+	}
+	int count1 = 0;
+	MPI_Reduce(&count, &count1, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+	if(rank == 0)
+		printf("No. of Occurrences = %d\n", count1);
+	MPI_Finalize();
+}

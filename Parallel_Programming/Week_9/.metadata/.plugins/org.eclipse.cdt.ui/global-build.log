@@ -1,0 +1,288 @@
+20:44:30 **** Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "ex.d" "../ex.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "ex.o" "../ex.cu"
+../ex.cu(3): error: this declaration has no storage class or type specifier
+
+../ex.cu(3): error: expected a ";"
+
+../ex.cu(32): warning: parsing restarts here after previous syntax error
+
+../ex.cu(35): error: this declaration has no storage class or type specifier
+
+../ex.cu(35): error: declaration is incompatible with "cudaError_t cudaMemcpy(void *, const void *, size_t, cudaMemcpyKind)"
+/usr/include/cuda_runtime_api.h(3999): here
+
+../ex.cu(35): error: identifier "c" is undefined
+
+../ex.cu(35): error: expected a ")"
+
+../ex.cu(38): error: this declaration has no storage class or type specifier
+
+../ex.cu(38): error: declaration is incompatible with "int printf(const char *, ...)"
+/usr/include/common_functions.h(119): here
+
+../ex.cu(38): error: a value of type "const char *" cannot be used to initialize an entity of type "int"
+
+../ex.cu(38): error: expected a ")"
+
+../ex.cu(41): error: this declaration has no storage class or type specifier
+
+../ex.cu(41): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/usr/include/cuda_runtime_api.h(3101): here
+
+../ex.cu(41): error: identifier "d_a" is undefined
+
+../ex.cu(42): error: this declaration has no storage class or type specifier
+
+../ex.cu(42): error: variable "cudaFree" has already been defined
+
+../ex.cu(42): error: identifier "d_b" is undefined
+
+../ex.cu(43): error: this declaration has no storage class or type specifier
+
+../ex.cu(43): error: variable "cudaFree" has already been defined
+
+../ex.cu(43): error: identifier "d_c" is undefined
+
+../ex.cu(44): error: expected a declaration
+
+../ex.cu(45): error: expected a declaration
+
+21 errors detected in the compilation of "/tmp/tmpxft_00001369_00000000-7_ex.cpp1.ii".
+subdir.mk:18: recipe for target 'ex.o' failed
+make: *** [ex.o] Error 2
+20:44:51 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "ex.d" "../ex.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "ex.o" "../ex.cu"
+Finished building: ../ex.cu
+ 
+Building target: Ex
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Ex"  ./ex.o   
+Finished building target: Ex
+ 
+20:45:10 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:26 **** Build of configuration Debug for project Q1a ****
+make all 
+Building file: ../block_size.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "block_size.d" "../block_size.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "block_size.o" "../block_size.cu"
+Finished building: ../block_size.cu
+ 
+Building target: Q1a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1a"  ./block_size.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Q1a] Error 1
+makefile:58: recipe for target 'Q1a' failed
+20:53:46 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+Building target: Q1a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1a"  ./block_size.o   
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:58: recipe for target 'Q1a' failed
+make: *** [Q1a] Error 1
+20:57:01 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+Building file: ../block_size.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "block_size.d" "../block_size.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "block_size.o" "../block_size.cu"
+../block_size.cu(7): error: identifier "N" is undefined
+
+1 error detected in the compilation of "/tmp/tmpxft_000017a5_00000000-7_block_size.cpp1.ii".
+subdir.mk:18: recipe for target 'block_size.o' failed
+make: *** [block_size.o] Error 2
+20:57:45 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+Building file: ../block_size.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "block_size.d" "../block_size.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "block_size.o" "../block_size.cu"
+Finished building: ../block_size.cu
+ 
+Building target: Q1a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1a"  ./block_size.o   
+Finished building target: Q1a
+ 
+20:57:56 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:15 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+Building file: ../block_size.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "block_size.d" "../block_size.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "block_size.o" "../block_size.cu"
+Finished building: ../block_size.cu
+ 
+Building target: Q1a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1a"  ./block_size.o   
+Finished building target: Q1a
+ 
+20:59:20 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+make: Nothing to be done for 'all'.
+21:02:17 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+Building file: ../block_size.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "block_size.d" "../block_size.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "block_size.o" "../block_size.cu"
+Finished building: ../block_size.cu
+ 
+Building target: Q1a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1a"  ./block_size.o   
+Finished building target: Q1a
+ 
+21:02:24 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:30 **** Build of configuration Debug for project Q1b ****
+make all 
+Building file: ../threads.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "threads.d" "../threads.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "threads.o" "../threads.cu"
+Finished building: ../threads.cu
+ 
+Building target: Q1b
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1b"  ./threads.o   
+Finished building target: Q1b
+ 
+21:08:45 **** Incremental Build of configuration Debug for project Q1b ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:05 **** Incremental Build of configuration Debug for project Q1b ****
+make all 
+Building file: ../threads.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "threads.d" "../threads.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "threads.o" "../threads.cu"
+Finished building: ../threads.cu
+ 
+Building target: Q1b
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q1b"  ./threads.o   
+Finished building target: Q1b
+ 
+21:10:15 **** Incremental Build of configuration Debug for project Q1b ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:02 **** Build of configuration Debug for project Q2a ****
+make all 
+Building file: ../row_computedBy_oneThread.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "row_computedBy_oneThread.d" "../row_computedBy_oneThread.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "row_computedBy_oneThread.o" "../row_computedBy_oneThread.cu"
+../row_computedBy_oneThread.cu(37): error: expression must have pointer-to-object type
+
+../row_computedBy_oneThread.cu(58): error: expression must have pointer-to-object type
+
+../row_computedBy_oneThread.cu(58): error: expression must have pointer-to-object type
+
+../row_computedBy_oneThread.cu(58): error: expression must have pointer-to-object type
+
+4 errors detected in the compilation of "/tmp/tmpxft_00002003_00000000-7_row_computedBy_oneThread.cpp1.ii".
+subdir.mk:18: recipe for target 'row_computedBy_oneThread.o' failed
+make: *** [row_computedBy_oneThread.o] Error 2
+21:35:21 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+Building file: ../row_computedBy_oneThread.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "row_computedBy_oneThread.d" "../row_computedBy_oneThread.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "row_computedBy_oneThread.o" "../row_computedBy_oneThread.cu"
+Finished building: ../row_computedBy_oneThread.cu
+ 
+Building target: Q2a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q2a"  ./row_computedBy_oneThread.o   
+Finished building target: Q2a
+ 
+21:35:30 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+make: Nothing to be done for 'all'.
+21:35:31 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:58 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+Building file: ../row_computedBy_oneThread.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "row_computedBy_oneThread.d" "../row_computedBy_oneThread.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "row_computedBy_oneThread.o" "../row_computedBy_oneThread.cu"
+Finished building: ../row_computedBy_oneThread.cu
+ 
+Building target: Q2a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q2a"  ./row_computedBy_oneThread.o   
+Finished building target: Q2a
+ 
+21:45:08 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:27 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+Building file: ../row_computedBy_oneThread.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "row_computedBy_oneThread.d" "../row_computedBy_oneThread.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "row_computedBy_oneThread.o" "../row_computedBy_oneThread.cu"
+Finished building: ../row_computedBy_oneThread.cu
+ 
+Building target: Q2a
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q2a"  ./row_computedBy_oneThread.o   
+Finished building target: Q2a
+ 
+21:45:38 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:55 **** Incremental Build of configuration Debug for project Q2a ****
+make all 
+make: Nothing to be done for 'all'.
+21:55:57 **** Build of configuration Debug for project Q2b ****
+make all 
+Building file: ../column_computedBy_oneThread.cu
+Invoking: NVCC Compiler
+/usr/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "." -M -o "column_computedBy_oneThread.d" "../column_computedBy_oneThread.cu"
+/usr/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "column_computedBy_oneThread.o" "../column_computedBy_oneThread.cu"
+Finished building: ../column_computedBy_oneThread.cu
+ 
+Building target: Q2b
+Invoking: NVCC Linker
+/usr/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Q2b"  ./column_computedBy_oneThread.o   
+Finished building target: Q2b
+ 
+21:56:08 **** Incremental Build of configuration Debug for project Q2b ****
+make all 
+make: Nothing to be done for 'all'.
+22:11:56 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+make: Nothing to be done for 'all'.
+22:11:58 **** Incremental Build of configuration Debug for project Q1a ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:12 **** Incremental Build of configuration Debug for project Q1b ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:15 **** Incremental Build of configuration Debug for project Q1b ****
+make all 
+make: Nothing to be done for 'all'.

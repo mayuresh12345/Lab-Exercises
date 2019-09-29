@@ -1,0 +1,11 @@
+__kernel void repeat(__global char *A, __global char *B, int N, int len){
+	
+	
+	int id = get_global_id(0);
+	int i;
+	printf("len %d size %d",len,N);
+	for (i = 0; i < len; i++) {
+		B[i + (id * len)] = A[id];
+	}
+	
+}

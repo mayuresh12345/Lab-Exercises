@@ -1,0 +1,900 @@
+14:29:16 **** Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+Finished building: ../ex.c
+ 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+14:33:25 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+14:34:50 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+14:34:52 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:34:53 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:34:53 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:36:35 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:36:35 **** Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+makefile:29: recipe for target 'Q1' failed
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [Q1] Error 1
+14:36:40 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:36:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+14:37:07 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:37:07 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+14:38:13 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:13 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+14:38:23 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:23 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+14:38:47 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+Finished building: ../ex.c
+ 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+14:38:47 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:43:28 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+14:43:28 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+15:06:45 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:06:46 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:06:46 **** Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:20:17: error: called object is not a function or function pointer
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+                 ^
+../q2.c:20:3: error: too few arguments to function ‘MPI_Bcast’
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+   ^
+In file included from ../q2.c:1:0:
+/usr/include/mpich/mpi.h:1003:5: note: declared here
+subdir.mk:18: recipe for target 'q2.o' failed
+ int MPI_Bcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm)
+     ^
+../q2.c:25:34: error: ‘numprocs’ undeclared (first use in this function)
+   for(i = rank + 1; i <= n; i += numprocs)
+                                  ^
+../q2.c:25:34: note: each undeclared identifier is reported only once for each function it appears in
+../q2.c:32:6: error: ‘myid’ undeclared (first use in this function)
+   if(myid == 0)
+      ^
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:5:31: warning: unused variable ‘numProcs’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                               ^
+make: *** [q2.o] Error 1
+15:07:08 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:08 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:08 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:20:17: error: called object is not a function or function pointer
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+                 ^
+../q2.c:20:3: error: too few arguments to function ‘MPI_Bcast’
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+   ^
+In file included from ../q2.c:1:0:
+/usr/include/mpich/mpi.h:1003:5: note: declared here
+ int MPI_Bcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm)
+     ^
+../q2.c:25:34: error: ‘numprocs’ undeclared (first use in this function)
+   for(i = rank + 1; i <= n; i += numprocs)
+                                  ^
+../q2.c:25:34: note: each undeclared identifier is reported only once for each function it appears in
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:5:31: warning: unused variable ‘numProcs’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                               ^
+make: *** [q2.o] Error 1
+subdir.mk:18: recipe for target 'q2.o' failed
+15:07:23 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:23 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:23 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:20:17: error: called object is not a function or function pointer
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+                 ^
+../q2.c:20:3: error: too few arguments to function ‘MPI_Bcast’
+   MPI_Bcast(&n, 1 MPI_INT, 0, MPI_COMM_WORLD);
+   ^
+In file included from ../q2.c:1:0:
+/usr/include/mpich/mpi.h:1003:5: note: declared here
+ int MPI_Bcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm)
+     ^
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+subdir.mk:18: recipe for target 'q2.o' failed
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+make: *** [q2.o] Error 1
+15:08:05 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:08:05 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:08:05 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:25:31: warning: ‘numProcs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for(i = rank + 1; i <= n; i += numProcs)
+                               ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+15:19:40 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:41 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:25:31: warning: ‘numProcs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for(i = rank + 1; i <= n; i += numProcs)
+                               ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+15:19:41 **** Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:20:10 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:10 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:10 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:25:31: warning: ‘numProcs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for(i = rank + 1; i <= n; i += numProcs)
+                               ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+15:20:11 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:20:29 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:29 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:29 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:29 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:20:36 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:36 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:37 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:37 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:20:40 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:40 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:41 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:29: recipe for target 'Q3' failed
+make: *** [Q3] Error 1
+15:27:57 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:57 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:27:58 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:5:31: warning: unused variable ‘numProcs’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                               ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+15:27:58 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:28:40 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:28:41 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+../q2.c: In function ‘main’:
+../q2.c:34:62: warning: implicit declaration of function ‘fabs’ [-Wimplicit-function-declaration]
+    printf("Pi is approximately %.16f, Error is %.16f\n", pi, fabs(pi - pi25dt));
+                                                              ^
+../q2.c:34:62: warning: incompatible implicit declaration of built-in function ‘fabs’
+../q2.c:34:62: note: include ‘<math.h>’ or provide a declaration of ‘fabs’
+../q2.c:7:30: warning: unused variable ‘a’ [-Wunused-variable]
+  double mypi, pi, h, sum, x, a;
+                              ^
+../q2.c:5:44: warning: unused variable ‘rc’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                                            ^
+../q2.c:5:31: warning: unused variable ‘numProcs’ [-Wunused-variable]
+  int rank, size, done = 0, n, numProcs, i, rc;
+                               ^
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+15:28:41 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+makefile:29: recipe for target 'Q3' failed
+collect2: error: ld returned 1 exit status
+make: *** [Q3] Error 1
+15:50:42 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:43 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:43 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:43 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:12:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+15:53:35 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:35 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:35 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:53:36 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:12:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+15:56:11 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:11 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:11 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:11 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+15:56:38 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:39 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:39 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:56:39 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+15:57:15 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:15 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:16 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:16 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+15:57:55 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:55 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:55 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+15:57:55 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+16:07:04 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:04 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:04 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:05 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:05 **** Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:13:2: warning: implicit declaration of function ‘ErrorHandler’ [-Wimplicit-function-declaration]
+  ErrorHandler(error_code);
+  ^
+../q4.c:8:6: warning: unused variable ‘len’ [-Wunused-variable]
+  int len, error_code;
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/Parallel_Programming/Week_4/Q4/Debug/../q4.c:13: undefined reference to `ErrorHandler'
+makefile:29: recipe for target 'Q4' failed
+/home/student/Desktop/Tanmay_C48/Labs/Parallel_Programming/Week_4/Q4/Debug/../q4.c:15: undefined reference to `ErrorHandler'
+collect2: error: ld returned 1 exit status
+make: *** [Q4] Error 1
+16:07:26 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:26 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:27 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:27 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:07:27 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:13:2: warning: implicit declaration of function ‘ErrorHandler’ [-Wimplicit-function-declaration]
+  ErrorHandler(error_code);
+  ^
+../q4.c:8:6: warning: unused variable ‘len’ [-Wunused-variable]
+  int len, error_code;
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/Parallel_Programming/Week_4/Q4/Debug/../q4.c:13: undefined reference to `ErrorHandler'
+makefile:29: recipe for target 'Q4' failed
+/home/student/Desktop/Tanmay_C48/Labs/Parallel_Programming/Week_4/Q4/Debug/../q4.c:15: undefined reference to `ErrorHandler'
+collect2: error: ld returned 1 exit status
+make: *** [Q4] Error 1
+16:08:58 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:58 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:58 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:58 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:08:58 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:12:6: warning: unused variable ‘len’ [-Wunused-variable]
+  int len, error_code;
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+16:11:40 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:11:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:11:40 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:11:40 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:11:40 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:21:6: warning: unused variable ‘len’ [-Wunused-variable]
+  int len, error_code;
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+16:46:46 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:47 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:47 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:47 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:47 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:47 **** Build of configuration Debug for project Q5 ****
+make all 
+Building file: ../q5.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q5.d" -MT"q5.d" -o "q5.o" "../q5.c"
+../q5.c: In function ‘main’:
+../q5.c:19:14: error: ‘mat’ undeclared (first use in this function)
+  MPI_Scatter(mat, 4, MPI_INT, s1, 4, MPI_INT, 0, MPI_COMM_WORLD);
+              ^
+../q5.c:19:14: note: each undeclared identifier is reported only once for each function it appears in
+subdir.mk:18: recipe for target 'q5.o' failed
+make: *** [q5.o] Error 1
+16:46:58 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:58 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:58 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:58 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:59 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:59 **** Incremental Build of configuration Debug for project Q5 ****
+make all 
+Building file: ../q5.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q5.d" -MT"q5.d" -o "q5.o" "../q5.c"
+Finished building: ../q5.c
+ 
+Building target: Q5
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q5"  ./q5.o   -lmpi
+Finished building target: Q5
+ 
+16:48:17 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:17 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:17 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:17 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:17 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:17 **** Incremental Build of configuration Debug for project Q5 ****
+make all 
+Building file: ../q5.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q5.d" -MT"q5.d" -o "q5.o" "../q5.c"
+Finished building: ../q5.c
+ 
+Building target: Q5
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q5"  ./q5.o   -lmpi
+Finished building target: Q5
+ 
+16:48:35 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:35 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:35 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:36 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:36 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:36 **** Incremental Build of configuration Debug for project Q5 ****
+make all 
+Building file: ../q5.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q5.d" -MT"q5.d" -o "q5.o" "../q5.c"
+Finished building: ../q5.c
+ 
+Building target: Q5
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q5"  ./q5.o   -lmpi
+Finished building target: Q5
+ 

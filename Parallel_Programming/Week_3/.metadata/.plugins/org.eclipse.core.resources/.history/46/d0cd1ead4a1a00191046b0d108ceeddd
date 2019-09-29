@@ -1,0 +1,44 @@
+#include "mpi.h"
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char* argv[])
+{
+	int rank, size, N;
+	int i, j;
+	MPI_Init(&argc, &argv);
+	int len;
+
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &size);
+	char str[100];
+	if(rank == 0)
+	{
+		printf("Enter a string: ");
+		gets(str);
+		len = strlen(str);
+	}
+	char str2[100];
+	MPI_Bcast(&len, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	MPI_Scatter(str, len/size, MPI_CHAR, &str2, len/size, MPI_CHAR, 0, MPI_COMM_WORLD);
+
+	int vow = 0;
+	for(i = 0; i < strlen(str2); i++)
+	{
+		if(str[i] != 'a' || str[i] != 'e' || str[i] != 'i' || str[i] != 'o' || str[i] != 'u')
+			vow++;
+	}
+	int split_vowels[10];
+	MPI_Gather(&vow, 1, MPI_INT, split_vowels, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	if(rank == 0)
+	{
+		int t_vow = 0;
+		for(int i = 0; i < size; i++)
+		{
+			printf("Rank = %d\tNon vowels = %d", rank, split_vowels[i]);
+			t_vow += split_vowels[i];
+		}
+		printf("Total = %d", t_vow);
+	}
+	MPI_Finalize();
+}

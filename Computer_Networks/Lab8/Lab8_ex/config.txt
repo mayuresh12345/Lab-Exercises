@@ -1,0 +1,28 @@
+# Router 1
+
+enable
+conf t
+hostname R1
+interface e1/0
+ip address 10.10.10.1 255.255.255.0
+no shut
+do wr
+
+
+# Router 2
+enable
+conf t
+hostname R2
+int e1/0
+ip address 10.10.10.2 255.255.255.0
+no shut
+do wr
+exit
+
+conf t
+ip dns server
+ip host loopback.R2.com 2.2.2.2
+
+interface loopback 1
+ip address 2.2.2.2 255.255.255.255
+end

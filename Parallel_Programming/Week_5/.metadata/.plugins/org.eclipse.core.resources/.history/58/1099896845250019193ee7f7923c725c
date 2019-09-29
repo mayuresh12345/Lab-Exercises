@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <CL/cl.h>
+#include <stdlib.h>
+
+#define MAX_SOURCE_SIZE(0x1000000)
+
+int main(void)
+{
+	// Create two input vectors
+	int i;
+	int LIST_SIZE;
+	printf("Enter how many elements: ");
+	scanf("%d", &LIST_SIZE);
+	int *A = (int *)malloc(sizeof(int) * LIST_SIZE);
+	// Initialize the input vectors
+	for(i = 0; i < LIST_SIZE; i++)
+	{
+		A[i] = i; // if LIST_SIZE is very large
+	}
+
+	int *B = (int *) malloc(sizeof(int) * LIST_SIZE);
+	// Initialize the input vectors
+	for(i = 0; i < LIST_SIZE; i++)
+	{
+		B[i] = i + 10;
+	}
+
+	// Load the kernel source code into the source_str
+	FILE* fp;
+	char *source_str;
+	size_t source_size;
+
+	fp = fopen("vectorCLKernel.cl", "r");
+
+	if(!fp)
+	{
+		printf("Failed to load kernel\n");
+		getchar();
+		exit(1);
+	}
+	source_str = (char *)malloc(MAX_SOURCE_SIZE);
+	source_size = fread(source_str, 1, MAX_SOURCE_SIZE, fp);
+
+	fclose(fp);
+
+	// Get platform and device information
+	cl_platform_id platform_id = NULL;
+	cl_device_id device_id = NULL;
+	cl_uint ret_num_devices;
+	cl
+}

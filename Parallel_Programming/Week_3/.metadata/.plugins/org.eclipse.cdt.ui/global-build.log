@@ -1,0 +1,848 @@
+20:02:39 **** Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+Finished building: ../ex.c
+ 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+20:03:45 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+../ex.c: In function ‘main’:
+../ex.c:33:2: error: expected ‘;’ before ‘}’ token
+subdir.mk:18: recipe for target 'ex.o' failed
+  }
+  ^
+make: *** [ex.o] Error 1
+20:03:51 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+Building file: ../ex.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex.d" -MT"ex.d" -o "ex.o" "../ex.c"
+Finished building: ../ex.c
+ 
+Building target: Ex
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Ex"  ./ex.o   -lmpi
+Finished building target: Ex
+ 
+20:09:14 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:14 **** Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+20:11:39 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:40 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+Building file: ../q1.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q1.d" -MT"q1.d" -o "q1.o" "../q1.c"
+../q1.c: In function ‘main’:
+../q1.c:12:28: warning: unused variable ‘B’ [-Wunused-variable]
+  int rank, size, N, A[10], B[10], c, i;
+                            ^
+Finished building: ../q1.c
+ 
+Building target: Q1
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q1"  ./q1.o   -lmpi
+Finished building target: Q1
+ 
+20:23:27 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:27 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:27 **** Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+20:24:41 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:41 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:41 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+Building file: ../q2.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q2.d" -MT"q2.d" -o "q2.o" "../q2.c"
+Finished building: ../q2.c
+ 
+Building target: Q2
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q2"  ./q2.o   -lmpi
+Finished building target: Q2
+ 
+21:03:14 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:15 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:15 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:15 **** Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:10:12: warning: unused variable ‘k’ [-Wunused-variable]
+  int i, j, k;
+            ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:04:22 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:22 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:22 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:22 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:10:12: warning: unused variable ‘k’ [-Wunused-variable]
+  int i, j, k;
+            ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:05:07 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:07 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:07 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:07 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:10:12: warning: unused variable ‘k’ [-Wunused-variable]
+  int i, j, k;
+            ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:05:49 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:49 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:49 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:49 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:22 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:23 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:23 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:23 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:10:12: warning: unused variable ‘k’ [-Wunused-variable]
+  int i, j, k;
+            ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:07:01 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:01 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:01 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:02 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:07:38 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:38 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:39 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:39 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:08:26 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:26 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:26 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:26 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:09:15 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:15 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:16 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:16 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:09:42 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:43 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:43 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:09:43 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:10:32 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:33 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:33 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:33 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:18:15 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:15 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:16 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:18:16 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:29:10 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:10 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:11 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:11 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:30:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
+  printf("Rank = %d\tAverage = %d\n", rank, c);
+         ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:29:19 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:19 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:19 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:20 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:30:16 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:17 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:17 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:17 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:31:16 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:16 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:17 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:17 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+../q3.c: In function ‘main’:
+../q3.c:39:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+     printf("%d\t", B[i]);
+            ^
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:33:02 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:02 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:02 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:03 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+21:34:24 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:24 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:24 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:24 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+Building file: ../q3.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q3.d" -MT"q3.d" -o "q3.o" "../q3.c"
+Finished building: ../q3.c
+ 
+Building target: Q3
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q3"  ./q3.o   -lmpi
+Finished building target: Q3
+ 
+22:02:12 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:12 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:12 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:12 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:12 **** Build of configuration Debug for project Q4 ****
+make all 
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+Finished building target: Q4
+ 
+16:54:12 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11378 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:54:13 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11846 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:54:13 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12628 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:54:13 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16811 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:54:13 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18479 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+subdir.mk:18: recipe for target 'q4.o' failed
+   gets(str);
+   ^
+../q4.c:23:22: error: invalid operands to binary / (have ‘char *’ and ‘int’)
+  MPI_Scatter(str, str/size, MPI_CHAR, &str2, len/size, MPI_CHAR, 0, MPI_COMM_WORLD);
+                      ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:21: warning: unused variable ‘A’ [-Wunused-variable]
+  int rank, size, N, A[100];
+                     ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N, A[100];
+                  ^
+make: *** [q4.o] Error 1
+16:54:30 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11360 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:54:30 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11829 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:54:31 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12610 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:54:31 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16793 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:54:31 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18461 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:21: warning: unused variable ‘A’ [-Wunused-variable]
+  int rank, size, N, A[100];
+                     ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N, A[100];
+                  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:18: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:56:07 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11263 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:56:07 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11732 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:56:07 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12514 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:56:07 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16697 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:56:08 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18364 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:18: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:03 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11207 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:03 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11676 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:03 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12457 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:04 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16640 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:04 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18308 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:18: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:12 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11198 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:12 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11667 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:13 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12448 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:13 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16631 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:13 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18299 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:18: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:53 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 11157 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:53 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11626 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+16:57:54 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12407 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:54 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16590 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+16:57:54 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 18258 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:18:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:8:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:7:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:18: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+17:02:18 **** Incremental Build of configuration Debug for project Ex ****
+make all 
+make: Warning: File 'ex.d' has modification time 10892 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+17:02:18 **** Incremental Build of configuration Debug for project Q1 ****
+make all 
+make: Warning: File 'q1.d' has modification time 11361 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+17:02:18 **** Incremental Build of configuration Debug for project Q2 ****
+make all 
+make: Warning: File 'q2.d' has modification time 12143 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+17:02:18 **** Incremental Build of configuration Debug for project Q3 ****
+make all 
+make: Warning: File 'q3.d' has modification time 16325 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for 'all'.
+17:02:19 **** Incremental Build of configuration Debug for project Q4 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 17993 s in the future
+Building file: ../q4.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/mpich -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"q4.d" -MT"q4.d" -o "q4.o" "../q4.c"
+../q4.c: In function ‘main’:
+../q4.c:19:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(str);
+   ^
+../q4.c:9:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j;
+         ^
+../q4.c:8:18: warning: unused variable ‘N’ [-Wunused-variable]
+  int rank, size, N;
+                  ^
+../q4.c:7:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a[1][1][1][1][1][1][1];
+      ^
+Finished building: ../q4.c
+ 
+Building target: Q4
+Invoking: GCC C Linker
+gcc -L/usr/lib/mpich/lib -o "Q4"  ./q4.o   -lmpi
+./q4.o: In function `main':
+/home/student/Desktop/Tanmay_C48/Labs/PCAP/Week_3/Q4/Debug/../q4.c:19: warning: the `gets' function is dangerous and should not be used.
+Finished building target: Q4
+make: warning:  Clock skew detected.  Your build may be incomplete.
+ 
